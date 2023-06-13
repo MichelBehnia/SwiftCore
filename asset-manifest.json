@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/SwiftCore/static/css/main.eb4c9840.css",
-    "main.js": "/SwiftCore/static/js/main.66df794c.js",
-    "static/media/mainIcon.png": "/SwiftCore/static/media/mainIcon.12fd0d3c41120f698234.png",
-    "static/media/calendarIcon.png": "/SwiftCore/static/media/calendarIcon.1fe0fbe8a8c900dfe3de.png",
-    "static/media/checklistIcon.png": "/SwiftCore/static/media/checklistIcon.85cb67dd7c3ded93dd03.png",
-    "static/media/communicationIcon.png": "/SwiftCore/static/media/communicationIcon.bb69231520750a996927.png",
-    "index.html": "/SwiftCore/index.html",
-    "main.eb4c9840.css.map": "/SwiftCore/static/css/main.eb4c9840.css.map",
-    "main.66df794c.js.map": "/SwiftCore/static/js/main.66df794c.js.map"
+    "main.css": "/static/css/main.eb4c9840.css",
+    "main.js": "/static/js/main.1ae476dd.js",
+    "static/media/mainIcon.png": "/static/media/mainIcon.12fd0d3c41120f698234.png",
+    "static/media/calendarIcon.png": "/static/media/calendarIcon.1fe0fbe8a8c900dfe3de.png",
+    "static/media/checklistIcon.png": "/static/media/checklistIcon.85cb67dd7c3ded93dd03.png",
+    "static/media/communicationIcon.png": "/static/media/communicationIcon.bb69231520750a996927.png",
+    "index.html": "/index.html",
+    "main.eb4c9840.css.map": "/static/css/main.eb4c9840.css.map",
+    "main.1ae476dd.js.map": "/static/js/main.1ae476dd.js.map"
   },
   "entrypoints": [
     "static/css/main.eb4c9840.css",
-    "static/js/main.66df794c.js"
+    "static/js/main.1ae476dd.js"
   ]
 }
