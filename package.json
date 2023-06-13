@@ -1,7 +1,7 @@
 {
   "name": "SwiftCore",
   "version": "0.1.0",
-  "homepage": "https://MichelBehnia.github.io/SwiftCore",
+  "homepage": "https://swiftcore.ca",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
