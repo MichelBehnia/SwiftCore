@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, {useRef} from 'react';
 import calendarIcon from "../assets/calendarIcon.png"
 import communicationIcon from "../assets/communicationIcon.png"
 import emailjs from '@emailjs/browser';
@@ -19,7 +19,7 @@ const Contact = () => {
     }
 
     return (
-        <div className="bg-slate-950 pt-20 pb-20">
+        <div className="bg-slate-950 pt-20">
             
             <h1 className='text-violet-200 text-2xl md:text-3xl text-center mb-10'>
                 Contact us to book your free consoltation.
@@ -42,6 +42,9 @@ const Contact = () => {
                 <div className="flex flex-col justify-center items-center">
                     <img className='w-[50%] md:w-full' src={communicationIcon} alt="placeholder"/>
                 </div>
+            </div>
+            <div className='pt-20 text-slate-800 text-center'>
+                <a href="https://www.vecteezy.com/free-png/">all PNGs by Vecteezy</a>
             </div>
         </div>   
     )
