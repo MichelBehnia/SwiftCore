@@ -4,13 +4,48 @@ import Info from "./components/Info";
 import Order from "./components/Order";
 import Contact from "./components/Contact";
 
+import { Link, animateScroll as Scroll} from 'react-scroll'
+
 function App() {
   return (
-    <div className="App">
-      <Main />
-      <Info /> 
-      <Order />
-      <Contact />
+    <div className="bg-slate-950">
+      <div className="z-10 bg-slate-950 sticky top-0 border-b rounded-lg flex justify-between items-center h-24 max-w-[1440px] mx-auto px-4">
+        <h1 className="w-full text-3xl font-bold text-violet-400">SwiftCore</h1>
+        <ul className="text-white flex">
+          <li className="p-4">
+            <Link activeClass="active" smooth spy to="Info">
+              Info
+            </Link>
+              
+          </li>
+          <li className="p-4">
+            <Link activeClass="active" smooth spy to="Order">
+              Purchase
+            </Link>
+          </li>
+          <li className="p-4">
+            <Link activeClass="active" smooth spy to="Contact">
+              Contact
+            </Link>
+          </li>
+        </ul>
+
+      </div>
+      <div className="z-0">
+        <Main />
+      </div>
+      <div className="z-0">
+        <section className="pt-5" id="Info"></section>
+        <Info />
+      </div>
+      <div className="z-0">
+        <section className="pt-5" id="Order"></section> 
+        <Order />
+      </div>
+      <div className="z-0">
+        <section id="Contact"></section>
+        <Contact />
+      </div>
     </div>
   );
 }

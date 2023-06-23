@@ -10,7 +10,7 @@ const Main = () => {
 
     return (
         <div className="bg-slate-950">
-            <div className="w-full h-screen  flex flex-col justify-between">
+            <div className="w-full h-screen flex flex-col justify-between">
                 <div className="grid md:grid-cols-2 max-w-[1440px] m-auto">
                     <div className="flex flex-col justify-center items-center w-full px-2 py-8">
                         <div className="w-[85%]">
@@ -24,7 +24,7 @@ const Main = () => {
                     </div>
                 </div>
             </div> 
-            <div className="pt-5" ref={ref}></div>
+            <div ref={ref}></div>
         </div> 
 
     )
