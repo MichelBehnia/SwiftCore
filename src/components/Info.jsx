@@ -51,7 +51,7 @@ const Info = () => {
                 <div className="pl-0 md:pl-10">
                     <h1 className="text-violet-200 text-2xl md:text-3xl font-bold text-center mt-10 mb-5 md:mt-0">How it Works</h1>
                     <div className="ratio ratio-16x9 mt-0 md:mt-5">
-                        <iframe className="w-full h-80" src="https://www.youtube.com/watch?v=sO30gXgsJ5I" title="placeholder" allowFullScreen></iframe>
+                        <iframe className="w-full h-80" src="https://www.youtube.com/embed/sO30gXgsJ5I" title="placeholder" allowFullScreen></iframe>
                     </div>
                 </div>
             </div>
