@@ -9,6 +9,7 @@ import { Link, animateScroll as Scroll} from 'react-scroll'
 function App() {
   return (
     <div className="bg-slate-950">
+      {/* maybe put all the code below in a navbar component along with the import up top */}
       <div className="z-10 bg-slate-950 sticky top-0 border-b rounded-lg flex justify-between items-center h-24 max-w-[1440px] mx-auto px-4">
         <h1 className="w-full text-3xl font-bold text-violet-400">SwiftCore</h1>
         <ul className="text-white flex">
@@ -29,8 +30,8 @@ function App() {
             </Link>
           </li>
         </ul>
-
       </div>
+      {/* code ends here */}
       <div className="z-0">
         <Main />
       </div>
