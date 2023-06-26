@@ -3,7 +3,8 @@ import Main from "./components/Main";
 import Info from "./components/Info";
 import Order from "./components/Order";
 import Contact from "./components/Contact";
-import Link from 'react-scroll'
+
+import { Link, animateScroll as Scroll} from 'react-scroll'
 
 function App() {
   return (
