@@ -9,7 +9,7 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault()
   
-      emailjs.sendForm(process.env.REACT_APP_SERVICE_KEY, 'template_u0d7gvp', form.current, process.env.REACT_APP_API_KEY)
+      emailjs.sendForm('service_0ckdjsv', 'template_u0d7gvp', form.current, 'aKCs32laQCPhHuU7n')
         .then((result) => {
             console.log(result.text)
             alert("Thank you for contacting us, expect a response as soon as possible")
